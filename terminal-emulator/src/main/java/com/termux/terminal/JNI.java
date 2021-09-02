@@ -6,7 +6,7 @@ package com.termux.terminal;
 final class JNI {
 
     static {
-        System.loadLibrary("termux");
+        System.loadLibrary("terminal");
     }
 
     /**
