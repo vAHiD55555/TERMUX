@@ -36,7 +36,7 @@ public interface TerminalViewClient {
 
     boolean isTerminalViewSelected();
 
-
+    boolean disableInput();
 
     void copyModeChanged(boolean copyMode);
 
@@ -58,7 +58,7 @@ public interface TerminalViewClient {
 
     boolean readFnKey();
 
-
+    void onScroll(int offset);
 
     boolean onCodePoint(int codePoint, boolean ctrlDown, TerminalSession session);
 
